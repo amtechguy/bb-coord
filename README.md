@@ -76,3 +76,33 @@ Then just type `bb-coord` from anywhere 😄
 ```bash
 bb-coord -t '40 26 46 S, 79 58 56 W'
 ```
+### Batch file
+```bash
+bb-coord -f /path/to/coords.txt
+```
+### Help
+```bash
+bb-coord -h
+```
+
+---
+
+## Tips 💡
+
+- Always wrap your input in **single quotes** to avoid shell issues with degree symbols and special characters
+- The `.txt` file for batch mode should have one coordinate per line, blank lines are skipped
+- S and W are automatically converted to negative — you don't need to do anything
+
+---
+
+## Legal stuff 👀
+
+This tool does math on coordinates. Very dangerous stuff. If anyone asks — especially anyone with a GPS unit and a suspicious look — you found this on the internet and you have no idea who made it. The developer is a ghost. Doesn't exist. Never heard of him.
+
+Stay safe out there 🫡
+
+---
+
+## Credits
+
+Built with love, broken code, and a lot of patience by **amtechguy** 😄
